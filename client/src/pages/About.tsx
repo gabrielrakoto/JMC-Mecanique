@@ -5,7 +5,7 @@ export default function About() {
   return (
     <PageTransition className="pt-32 pb-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <FadeIn>
           <div className="text-center mb-16 max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-display font-bold mb-4">
@@ -23,9 +23,9 @@ export default function About() {
             <div className="relative group">
               <div className="absolute -inset-4 border-2 border-primary/20 transform translate-x-4 translate-y-4 rounded-sm transition-transform group-hover:translate-x-2 group-hover:translate-y-2" />
               {/* Unsplash garage interior */}
-              <img 
-                src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=1200&auto=format&fit=crop" 
-                alt="JMC Garage Interior" 
+              <img
+                src="/images/gallery/gallery-2.jpg"
+                alt="Intérieur Garage JMC"
                 className="relative z-10 w-full h-[500px] object-cover rounded-sm grayscale-[20%] group-hover:grayscale-0 transition-all duration-500"
               />
             </div>
@@ -42,7 +42,7 @@ export default function About() {
               <p>
                 Notre mécanicien expert travaille avec <strong className="text-foreground">précision, propreté et souci du détail</strong>. Rien n'est laissé au hasard. Nous comprenons l'importance de votre véhicule dans votre vie quotidienne, c'est pourquoi nous garantissons un diagnostic honnête et une exécution impeccable.
               </p>
-              
+
               <ul className="space-y-4 mt-8">
                 {[
                   "Diagnostic précis et transparent",

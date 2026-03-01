@@ -11,9 +11,9 @@ export default function Home() {
         {/* Absolute Background */}
         <div className="absolute inset-0 z-0">
           {/* Unsplash realistic mechanic working on a car */}
-          <img 
-            src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=2000&auto=format&fit=crop" 
-            alt="Mechanic working on engine" 
+          <img
+            src="/images/gallery/gallery-1.jpg"
+            alt="Mécanicien travaillant sur un moteur"
             className="w-full h-full object-cover object-center"
           />
           {/* Dark gradient wash over hero image */}
@@ -29,7 +29,7 @@ export default function Home() {
                 Expertise & Précision
               </div>
             </FadeIn>
-            
+
             <FadeIn delay={0.3}>
               <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-display font-bold leading-[1.1] mb-6">
                 RÉPARATION DE <br />
