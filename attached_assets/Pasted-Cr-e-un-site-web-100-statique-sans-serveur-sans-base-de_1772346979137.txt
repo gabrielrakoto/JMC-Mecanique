@@ -1,0 +1,136 @@
+Crée un site web 100 % statique (sans serveur, sans base de données, sans backend, sans API) pour JMC Mécanique, une entreprise de mécanique automobile située à Québec City.
+
+Le site doit être développé uniquement en HTML, CSS et TypeScript compilé en JavaScript, sans framework backend et sans dépendance à une base de données.
+Toutes les données doivent être codées en dur (hardcoded) dans les fichiers.
+Le site doit pouvoir être déployé sur un hébergement statique (ex. Netlify, Vercel en mode statique, GitHub Pages).
+
+Le site doit être en français, avec un design professionnel, moderne, élégant et entièrement responsive (mobile, tablette, desktop).
+Les animations doivent être fluides mais légères, réalisées uniquement en CSS ou TypeScript (sans serveur).
+
+Structure du site (5 pages statiques)
+1. Page d’accueil (Home)
+
+Hero section dynamique avec une photo ou un carousel d’images (géré en TypeScript côté client).
+
+Logo “JMC Mécanique”.
+
+Slogan affiché avec animation élégante (fade-in ou animation de texte CSS) :
+
+Notre mécanicien travaille avec précision, propreté et souci du détail — rien n’est laissé au hasard.
+Chez JMC Garage, on ne fait pas que réparer des voitures...
+On les remet à neuf, avec ce soin et cette qualité qui se voient dans le résultat final.
+Votre satisfaction est notre priorité !
+
+Section résumant visuellement les 5 pages (À propos, Services, Galerie, Contact).
+
+Bouton CTA : “Prendre rendez-vous dès maintenant”
+→ Le bouton redirige vers la page Contact (aucune logique serveur).
+
+2. Page À propos
+
+Texte présentant JMC Mécanique, leur philosophie et engagement envers la qualité.
+
+Mettre en valeur :
+
+Expertise en mécanique automobile
+
+Service professionnel et attention au détail
+
+Approche propre, méthodique et orientée satisfaction client
+
+Image de l’équipe ou du garage avec effet fade-in CSS au scroll (géré en TypeScript si nécessaire).
+
+3. Page Services
+
+Liste statique des services (aucune gestion dynamique via base de données) :
+
+Remplacement de pneus
+
+Remplacement et vérification d’essuie-glaces
+
+Vérification de l’état de la batterie, des bornes et du système de charge
+
+Alignement
+
+Mécanique générale
+
+Chaque service doit être présenté sous forme de carte avec :
+
+Icône
+
+Courte description
+
+Effet hover moderne (transition CSS)
+
+4. Page Galerie
+
+Grille d’images statiques (images locales dans le projet).
+
+Effet zoom au survol (CSS).
+
+Lightbox gérée en TypeScript pur (aucune librairie nécessitant backend).
+
+Aucune description texte.
+
+5. Page Contact
+
+Afficher les informations suivantes de manière statique :
+
+📍 Adresse : 176 Ave Saint-Sacrement, Québec City, Quebec G1N 3X6
+📞 Téléphone : +1 (418) 688-4437
+📧 Courriel : mecaniquejmc@gmail.com
+
+📘 Facebook : JMC Garage Mécanique
+📸 Instagram : @jmc.mecanique
+
+🕐 Heures d’ouverture :
+Lundi au vendredi : 8h30 à 17h00
+Samedi et dimanche : Fermé
+
+Intégrer une carte Google Maps via iframe (embed uniquement, aucune API côté serveur).
+
+Inclure un formulaire de contact statique (nom, courriel, message)
+→ Sans backend.
+→ Utiliser soit un service externe (ex. Formspree) OU simplement un formulaire HTML non fonctionnel avec validation front-end en TypeScript.
+
+Contraintes techniques
+
+Site entièrement statique.
+
+Aucun serveur Node.js.
+
+Aucune base de données.
+
+Aucun appel API personnalisé.
+
+Aucune authentification.
+
+Aucun système dynamique côté backend.
+
+Code structuré proprement (dossier assets, styles, scripts).
+
+TypeScript utilisé pour :
+
+Carousel
+
+Lightbox
+
+Animations au scroll
+
+Validation du formulaire
+
+Animations légères :
+
+Parallax CSS sur la hero
+
+Fade-in au scroll
+
+Hover sur les cartes
+
+Typographie professionnelle (Montserrat ou Poppins via Google Fonts).
+
+Footer complet avec logo, coordonnées et réseaux sociaux.
+
+SEO de base (meta title, description, balises sémantiques).
+
+Structure optimisée pour performance (images compressées, chargement rapide).
