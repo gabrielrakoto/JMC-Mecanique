@@ -12,8 +12,8 @@ export function serveStatic(app: Express) {
 
   app.use(express.static(distPath));
 
-  // standard catch-all for SPAs
-  app.get("*", (_req, res) => {
+  // Standard catch-all for SPAs - must be last
+  app.use((_req, res) => {
     res.sendFile(path.resolve(distPath, "index.html"));
   });
 }
